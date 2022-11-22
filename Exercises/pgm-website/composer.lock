@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "824bd4451394faffbcc1fb4e676758a5",
+    "content-hash": "37f0b9840835257cee02089b9383497e",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -2232,6 +2232,70 @@
                 "source": "https://github.com/mikehaertl/php-shellcommand/tree/1.6.4"
             },
             "time": "2021-03-17T06:54:33+00:00"
+        },
+        {
+            "name": "misterbk/mix",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mister-bk/craft-plugin-mix.git",
+                "reference": "70241a5a5ae02bcfd1d94a7f93fa455869e825ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mister-bk/craft-plugin-mix/zipball/70241a5a5ae02bcfd1d94a7f93fa455869e825ff",
+                "reference": "70241a5a5ae02bcfd1d94a7f93fa455869e825ff",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0-alpha"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Mix",
+                "handle": "mix",
+                "schemaVersion": "1.0.0",
+                "developerEmail": "dev@mister-bk.de",
+                "documentationUrl": "https://github.com/mister-bk/craft-plugin-mix/blob/master/README.md",
+                "changelogUrl": "https://raw.githubusercontent.com/mister-bk/craft-plugin-mix/master/CHANGELOG.md",
+                "downloadUrl": "https://github.com/mister-bk/craft-plugin-mix/archive/master.zip",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "components": {
+                    "mix": "misterbk\\mix\\services\\MixService"
+                },
+                "class": "misterbk\\mix\\Mix"
+            },
+            "autoload": {
+                "psr-4": {
+                    "misterbk\\mix\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mister bk! GmbH",
+                    "email": "info@mister-bk.de",
+                    "homepage": "https://www.mister-bk.de/"
+                }
+            ],
+            "description": "Helper plugin for Laravel Mix in Craft CMS templates",
+            "keywords": [
+                "Craft",
+                "craft-plugin",
+                "craft4",
+                "craftcms",
+                "laravel-mix",
+                "mix"
+            ],
+            "support": {
+                "issues": "https://github.com/mister-bk/craft-plugin-mix/issues",
+                "source": "https://github.com/mister-bk/craft-plugin-mix/tree/v1.6.0"
+            },
+            "time": "2022-07-06T16:42:11+00:00"
         },
         {
             "name": "moneyphp/money",

@@ -1,13 +1,21 @@
-dateModified: 1669041566
+dateModified: 1669113986
 email:
   fromEmail: debockkilian@gmail.com
   fromName: ArteveldeHS
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    09f958ae-e61e-45f0-8ae8-0904861abc33: ArteveldeHS
-    d3226684-405e-470e-a0ff-0c905a326bb4: ArteveldeHS
-    dc74ce5c-3103-4843-836a-961d909d8643: Common
+    09f958ae-e61e-45f0-8ae8-0904861abc33: ArteveldeHS # ArteveldeHS
+    d3226684-405e-470e-a0ff-0c905a326bb4: ArteveldeHS # ArteveldeHS
+    dc74ce5c-3103-4843-836a-961d909d8643: Common # Common
+plugins:
+  mix:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      assetPath: dist
+      publicPath: web
 system:
   edition: solo
   live: true
