@@ -1,0 +1,15 @@
+{% extends "layouts/_base" %}
+
+{# Left Side #}
+{# Right Side #}
+
+{% block main %}
+    <div class="columns">
+        <div class="columns__column">
+            {% block columnLeft %}Left Side{% endblock %}
+        </div>
+        <div class="columns__column">
+            {% block columnRight %}Right Side{% endblock %}
+        </div>
+    </div>
+{% endblock %}
