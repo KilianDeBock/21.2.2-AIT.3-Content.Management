@@ -16,5 +16,14 @@
                 <a href="{{ navItem.url }}">{{ navItem.title }}</a>
             </li>
         {% endfor %}
+
+        {% if currentUser and currentUser.can('accessCp') %}
+            <li>
+                {% include 'components/button-link' with {
+                    'href': cpUrl(),
+                    'label': 'Control Panel'
+                } %}
+            </li>
+        {% endif %}
     </ul>
 </nav>
