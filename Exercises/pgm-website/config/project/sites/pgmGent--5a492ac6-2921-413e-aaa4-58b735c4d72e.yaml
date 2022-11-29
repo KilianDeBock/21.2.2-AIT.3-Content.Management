@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: pgmGent
+hasUrls: true
+language: nl-BE
+name: 'PGM Gent'
+primary: true
+siteGroup: 09f958ae-e61e-45f0-8ae8-0904861abc33 # ArteveldeHS
+sortOrder: 2

@@ -21,9 +21,28 @@
             <li>
                 {% include 'components/button-link' with {
                     'href': cpUrl(),
-                    'label': 'Control Panel'
+                    'label': 'dashboard' | t(params = {'name': currentUser.friendlyName | capitalize}),
                 } %}
             </li>
         {% endif %}
     </ul>
+    {% set sites = craft.app.sites.getAllSites() %}
+    <nav>
+        {% for site in sites %}
+            {% set isActive = currentSite.id is same as site.id %}
+            <li>
+                <a
+                href="{{site.baseUrl}}"
+                {% if isActive %}
+                    aria-current="page"
+                    class="lang-item lang-item--active"
+                {% else %}
+                    class="lang-item"
+                {% endif %}
+                >
+                    {{ site.language | split('-') | first | upper }}
+                </a>
+            </li>
+        {% endfor %}
+    </nav>
 </nav>

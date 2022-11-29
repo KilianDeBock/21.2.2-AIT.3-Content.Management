@@ -1,8 +1,9 @@
-baseUrl: $PRIMARY_SITE_URL
+baseUrl: $ENGLISH_SITE_URL
+enabled: true
 handle: default
 hasUrls: true
 language: en-US
-name: ArteveldeHS
-primary: true
+name: 'PGM Ghent'
+primary: false
 siteGroup: 09f958ae-e61e-45f0-8ae8-0904861abc33 # ArteveldeHS
 sortOrder: 1
