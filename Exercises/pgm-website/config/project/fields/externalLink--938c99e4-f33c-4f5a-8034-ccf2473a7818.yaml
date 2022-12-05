@@ -1,0 +1,14 @@
+columnSuffix: ssaldlxt
+contentColumnType: string(255)
+fieldGroup: dc74ce5c-3103-4843-836a-961d909d8643 # Common
+handle: externalLink
+instructions: null
+name: 'External Link'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

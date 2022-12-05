@@ -1,0 +1,29 @@
+defaultPlacement: end
+enableVersioning: true
+handle: cases
+name: Cases
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5a492ac6-2921-413e-aaa4-58b735c4d72e: # PGM Gent
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_case
+    uriFormat: 'cases/{slug}'
+  d3226684-405e-470e-a0ff-0c905a326bb4: # PGM Ghent
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_case
+    uriFormat: 'cases/{slug}'
+type: channel

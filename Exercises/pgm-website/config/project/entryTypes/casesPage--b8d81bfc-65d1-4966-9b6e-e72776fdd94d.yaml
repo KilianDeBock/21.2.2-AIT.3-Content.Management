@@ -1,0 +1,55 @@
+fieldLayouts:
+  5e9d36b0-37b3-46c9-af45-0e6cd2c1247b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: dd4ea3ec-736b-4bb2-a8a2-457dd42be792
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1def81ff-f8c7-42bf-b83d-1a7586a3ff32 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: babb9cea-8843-405f-ad38-473f785d3174
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fe2e9a22-45bf-442d-9229-9a93e6ea568d
+        userCondition: null
+handle: casesPage
+hasTitleField: true
+name: 'Cases Page'
+section: 6f6e4aa8-43dc-41c1-9c03-3939d992fc43 # Cases Page
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
