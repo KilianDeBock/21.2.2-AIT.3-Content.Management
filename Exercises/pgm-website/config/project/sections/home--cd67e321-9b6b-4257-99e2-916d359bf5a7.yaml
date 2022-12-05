@@ -1,0 +1,29 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5a492ac6-2921-413e-aaa4-58b735c4d72e: # PGM Gent
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_home
+    uriFormat: __home__
+  d3226684-405e-470e-a0ff-0c905a326bb4: # PGM Ghent
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_home
+    uriFormat: __home__
+type: single

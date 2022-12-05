@@ -1,14 +1,17 @@
-dateModified: 1669716850
+dateModified: 1670244281
 email:
   fromEmail: debockkilian@gmail.com
   fromName: ArteveldeHS
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    1def81ff-f8c7-42bf-b83d-1a7586a3ff32: Description # Description
     5a492ac6-2921-413e-aaa4-58b735c4d72e: 'PGM Gent' # PGM Gent
     09f958ae-e61e-45f0-8ae8-0904861abc33: ArteveldeHS # ArteveldeHS
+    cd67e321-9b6b-4257-99e2-916d359bf5a7: Home # Home
     d3226684-405e-470e-a0ff-0c905a326bb4: 'PGM Ghent' # PGM Ghent
     dc74ce5c-3103-4843-836a-961d909d8643: Common # Common
+    f4139642-7268-469a-8b0f-ffe72dbe2aad: Home # Home
 plugins:
   mix:
     edition: standard
@@ -18,7 +21,7 @@ plugins:
       assetPath: dist
       publicPath: web
 system:
-  edition: solo
+  edition: pro
   live: true
   name: ArteveldeHS
   schemaVersion: 4.0.0.9

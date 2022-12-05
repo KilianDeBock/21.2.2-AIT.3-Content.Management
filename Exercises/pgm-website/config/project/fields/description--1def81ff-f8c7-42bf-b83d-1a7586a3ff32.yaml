@@ -1,0 +1,19 @@
+columnSuffix: avxjmppf
+contentColumnType: text
+fieldGroup: dc74ce5c-3103-4843-836a-961d909d8643 # Common
+handle: description
+instructions: 'Use a rather short description.'
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\PlainText
