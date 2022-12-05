@@ -1,4 +1,4 @@
-dateModified: 1670245993
+dateModified: 1670251144
 email:
   fromEmail: debockkilian@gmail.com
   fromName: ArteveldeHS
@@ -6,12 +6,18 @@ email:
 meta:
   __names__:
     1b4b1946-2ea5-4a76-8030-ae748bfa7e39: Detail # Detail
+    1bbe7296-c463-46a4-8909-f0495aeaea77: 'Cases Selector' # Cases Selector
     1def81ff-f8c7-42bf-b83d-1a7586a3ff32: Description # Description
     5a492ac6-2921-413e-aaa4-58b735c4d72e: 'PGM Gent' # PGM Gent
     6f6e4aa8-43dc-41c1-9c03-3939d992fc43: 'Cases Page' # Cases Page
+    8d1faf3f-6547-4215-a69b-14524eb2c452: 'External Link' # External Link
     09f958ae-e61e-45f0-8ae8-0904861abc33: ArteveldeHS # ArteveldeHS
+    50b640eb-fedf-4d1a-86ab-2ac6452a6090: 'Entry Selector' # Entry Selector
     52fa0ebf-4097-4459-a7ad-770a190f5559: Cases # Cases
+    85a35d67-d96b-4841-b4b8-7e364f04e055: 'Main Navigation' # Main Navigation
+    758f436c-96b9-4fea-b836-00009b7e0fc2: 'Internal Link' # Internal Link
     938c99e4-f33c-4f5a-8034-ccf2473a7818: 'External Link' # External Link
+    41119b4d-cfd0-4f4f-a946-16749bf6bcf8: 'Button Style Selector' # Button Style Selector
     a50efbd0-d64b-47e6-919f-e2fa313b3f79: External # External
     b8d81bfc-65d1-4966-9b6e-e72776fdd94d: 'Cases Page' # Cases Page
     cd67e321-9b6b-4257-99e2-916d359bf5a7: Home # Home

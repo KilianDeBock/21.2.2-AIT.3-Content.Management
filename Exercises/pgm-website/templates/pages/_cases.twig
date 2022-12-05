@@ -1,6 +1,37 @@
 {% extends 'layouts/_main' %}
 
 {% block container %}
-    {{ entry.title }}
-    {{ entry.description }}
+    <ul>
+        {% for case in entry.casesSelector %}
+            <li>{{ case.title }}</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    <ul>
+        {% for case in craft.entries.section('cases').all() %}
+            {% set isExternal = case.type == 'external' %}
+            <li>
+                <a
+                    href="{{ isExternal ? case.externalLink : case.url }}"
+                    target="{{ isExternal ? '_blank' : '_self' }}"
+                >
+                    {{ case.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    <ul>
+        {% for case in craft.entries.section('cases').type('detail').all() %}
+            <li>
+                <a href="{{ case.url }}">
+                    {{ case.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 {% endblock %}

@@ -1,0 +1,32 @@
+defaultPlacement: end
+enableVersioning: true
+handle: mainNavigation
+name: 'Main Navigation'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5a492ac6-2921-413e-aaa4-58b735c4d72e: # PGM Gent
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  d3226684-405e-470e-a0ff-0c905a326bb4: # PGM Ghent
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: e212915c-43c7-4e6b-8922-6c72e55f8150
+type: structure

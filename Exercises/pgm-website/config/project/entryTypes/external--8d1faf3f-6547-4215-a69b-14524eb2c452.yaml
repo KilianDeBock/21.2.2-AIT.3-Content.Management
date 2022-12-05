@@ -1,5 +1,5 @@
 fieldLayouts:
-  5e9d36b0-37b3-46c9-af45-0e6cd2c1247b:
+  9966870b-a510-4c5a-9a67-3b1b593d6c8f:
     tabs:
       -
         elementCondition: null
@@ -26,42 +26,42 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: dd4ea3ec-736b-4bb2-a8a2-457dd42be792
+            uid: f800337e-1466-4498-87e0-8501f25e6060
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1def81ff-f8c7-42bf-b83d-1a7586a3ff32 # Description
+            fieldUid: 938c99e4-f33c-4f5a-8034-ccf2473a7818 # External Link
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: babb9cea-8843-405f-ad38-473f785d3174
+            uid: b610f3fc-eaa3-4460-b4c7-d6614704b59f
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1bbe7296-c463-46a4-8909-f0495aeaea77 # Cases Selector
+            fieldUid: 41119b4d-cfd0-4f4f-a946-16749bf6bcf8 # Button Style Selector
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2daf6412-887e-44d2-bbf8-d875be44c2b9
+            uid: bf0f7cee-3d25-4229-89f6-0d6aee25bac9
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: fe2e9a22-45bf-442d-9229-9a93e6ea568d
+        uid: 9c7683c1-9b43-436e-bf85-6967bb1cff92
         userCondition: null
-handle: casesPage
+handle: external
 hasTitleField: true
-name: 'Cases Page'
-section: 6f6e4aa8-43dc-41c1-9c03-3939d992fc43 # Cases Page
-sortOrder: 1
-titleFormat: '{section.name|raw}'
+name: 'External Link'
+section: 85a35d67-d96b-4841-b4b8-7e364f04e055 # Main Navigation
+sortOrder: 2
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

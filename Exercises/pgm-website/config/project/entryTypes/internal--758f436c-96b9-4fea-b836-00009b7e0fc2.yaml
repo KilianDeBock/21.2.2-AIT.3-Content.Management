@@ -1,5 +1,5 @@
 fieldLayouts:
-  5e9d36b0-37b3-46c9-af45-0e6cd2c1247b:
+  b33b4ddf-44e1-496a-9a13-c8d15ad8be88:
     tabs:
       -
         elementCondition: null
@@ -26,42 +26,42 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: dd4ea3ec-736b-4bb2-a8a2-457dd42be792
+            uid: b99b4269-dbd2-4b83-8349-ba3d6d28a1ba
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1def81ff-f8c7-42bf-b83d-1a7586a3ff32 # Description
+            fieldUid: 50b640eb-fedf-4d1a-86ab-2ac6452a6090 # Entry Selector
             instructions: null
-            label: null
-            required: false
+            label: 'Page Selector'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: babb9cea-8843-405f-ad38-473f785d3174
+            uid: f69a65f7-c03e-40f4-a51c-0905aa5ec7c8
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1bbe7296-c463-46a4-8909-f0495aeaea77 # Cases Selector
+            fieldUid: 41119b4d-cfd0-4f4f-a946-16749bf6bcf8 # Button Style Selector
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2daf6412-887e-44d2-bbf8-d875be44c2b9
+            uid: 297a1336-f6a1-426c-b166-c76d5204e8e6
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: fe2e9a22-45bf-442d-9229-9a93e6ea568d
+        uid: f11f3b4d-f81c-420b-9d6d-0b1f514571f6
         userCondition: null
-handle: casesPage
+handle: internal
 hasTitleField: true
-name: 'Cases Page'
-section: 6f6e4aa8-43dc-41c1-9c03-3939d992fc43 # Cases Page
+name: 'Internal Link'
+section: 85a35d67-d96b-4841-b4b8-7e364f04e055 # Main Navigation
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
