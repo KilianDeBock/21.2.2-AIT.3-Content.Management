@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: dc74ce5c-3103-4843-836a-961d909d8643 # Common
+handle: dynamicContent
+instructions: "This is a dynamic field containing several blocks.\r\nSuch as side-by side blocks, banner images, ..."
+name: Content
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_dynamiccontent}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

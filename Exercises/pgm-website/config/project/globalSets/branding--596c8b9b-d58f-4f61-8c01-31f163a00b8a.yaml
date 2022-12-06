@@ -1,0 +1,24 @@
+fieldLayouts:
+  1f03a7aa-9ed2-4269-aa52-1a80f6ca88be:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0383b419-091b-45cf-a277-19e9e813f5aa # Image
+            instructions: 'Upload a logo, preferably a vector image.'
+            label: Logo
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 23344d4b-4c47-46b9-ace7-5dfb6aa7fabf
+            userCondition: null
+            warning: null
+            width: 100
+        name: Branding
+        uid: 18475ea1-05f4-4076-a227-72cd52d02939
+        userCondition: null
+handle: branding
+name: Branding
+sortOrder: 1

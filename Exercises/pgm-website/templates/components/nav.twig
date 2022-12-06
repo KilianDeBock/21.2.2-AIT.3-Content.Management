@@ -1,6 +1,8 @@
 {% set navigationItems = craft.entries.section('mainNavigation').all() %}
 
 <nav>
+    {% include 'components/logo' %}
+
     <ul>
         {% for navItem in navigationItems %}
             <li>

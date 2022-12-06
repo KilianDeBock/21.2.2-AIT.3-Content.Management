@@ -1,0 +1,10 @@
+<div class="columns">
+    <article class="columns__column">
+        {% block article %}
+        {% endblock %}
+    </article>
+
+    {% if image is defined and image is not empty %}
+        <img class="columns__column" src="{{ image }}" alt="">
+    {% endif %}
+</div>

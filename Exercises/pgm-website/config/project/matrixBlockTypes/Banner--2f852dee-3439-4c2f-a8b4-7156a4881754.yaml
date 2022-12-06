@@ -1,0 +1,129 @@
+field: 5e19f193-61ad-4917-bc4a-e3cf85104991 # Content
+fieldLayouts:
+  c37532cc-5e99-4620-b243-6081ec3ab147:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7f96ef93-179b-4775-bc69-c66337540e2b # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 04278e7f-c088-4414-8bd7-bc7f27261053
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f1ff709b-116f-49e3-9572-740fb72c928f
+        userCondition: null
+fields:
+  7f96ef93-179b-4775-bc69-c66337540e2b: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: 'Upload a rather large image with a minimum width of 1080px.'
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:990e9362-0cb3-4fe3-b48e-6f89362559f7' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:990e9362-0cb3-4fe3-b48e-6f89362559f7' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+          -
+            - conditionRules
+            -
+              -
+                __assoc__:
+                  -
+                    - class
+                    - craft\elements\conditions\assets\FileTypeConditionRule
+                  -
+                    - uid
+                    - da301890-899d-44fc-8418-b62bd623d9a6
+                  -
+                    - operator
+                    - in
+                  -
+                    - values
+                    -
+                      - image
+              -
+                __assoc__:
+                  -
+                    - class
+                    - craft\elements\conditions\assets\FileSizeConditionRule
+                  -
+                    - uid
+                    - 533bdb62-b57f-4056-99bc-e91850009dff
+                  -
+                    - operator
+                    - '<'
+                  -
+                    - value
+                    - '4'
+                  -
+                    - maxValue
+                    - ''
+                  -
+                    - unit
+                    - MB
+              -
+                __assoc__:
+                  -
+                    - class
+                    - craft\elements\conditions\assets\WidthConditionRule
+                  -
+                    - uid
+                    - 29c017eb-45f9-4105-bf13-fd03c0cefcbf
+                  -
+                    - operator
+                    - '>='
+                  -
+                    - value
+                    - '1080'
+                  -
+                    - maxValue
+                    - ''
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources:
+        - 'volume:990e9362-0cb3-4fe3-b48e-6f89362559f7' # Images
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: banner
+name: Banner
+sortOrder: 1
