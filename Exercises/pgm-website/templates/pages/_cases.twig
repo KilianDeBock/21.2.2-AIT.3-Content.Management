@@ -1,6 +1,9 @@
-{% extends 'layouts/_main' %}
+{% extends "layouts/_main" %}
 
 {% block container %}
+    {{ entry.title }}
+    {{ entry.description }}
+
     <ul>
         {% for case in entry.casesSelector %}
             <li>{{ case.title }}</li>
@@ -11,27 +14,23 @@
 
     <ul>
         {% for case in craft.entries.section('cases').all() %}
-            {% set isExternal = case.type == 'external' %}
+            {% set isDetail = case.type == 'detail' %}
             <li>
-                <a
-                    href="{{ isExternal ? case.externalLink : case.url }}"
-                    target="{{ isExternal ? '_blank' : '_self' }}"
-                >
+                <a href="{{ isDetail ? case.url : case.externalLink }}" target="{{ isDetail ? '_self' : '_blank' }}">
                     {{ case.title }}
                 </a>
             </li>
         {% endfor %}
     </ul>
-
-    <hr>
 
     <ul>
         {% for case in craft.entries.section('cases').type('detail').all() %}
             <li>
-                <a href="{{ case.url }}">
+                <a href="{{case.url}}">
                     {{ case.title }}
                 </a>
             </li>
         {% endfor %}
     </ul>
+
 {% endblock %}

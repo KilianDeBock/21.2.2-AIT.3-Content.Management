@@ -1,9 +1,0 @@
-{% macro errors(list) %}
-    {% if list | length %}
-        <ul class="errors">
-            {% for error in list %}
-                <li>{{ error }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
-{% endmacro %}

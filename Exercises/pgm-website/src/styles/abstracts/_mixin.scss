@@ -1,19 +1,7 @@
-@use '../abstracts/variables' as v;
+@use './variables' as v;
 
-@mixin screen ($breakpoint) {
-  @if $breakpoint == 'small' or $breakpoint == 's' {
-    @media (max-width: v.$screen-small) {
-      @content;
+@mixin screen ($size) {
+    @media screen and (min-width: $size) {
+        @content;
     }
-  }
-  @else if $breakpoint == 'medium' or $breakpoint == 'm' {
-    @media (min-width: v.$screen-small + 1px) and (max-width: v.$screen-medium) {
-      @content;
-    }
-  }
-  @else if $breakpoint == 'large' or $breakpoint == 'l' {
-    @media (min-width: v.$screen-medium + 1px) {
-      @content;
-    }
-  }
 }

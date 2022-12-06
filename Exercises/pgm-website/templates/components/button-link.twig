@@ -1,8 +1,9 @@
 {% if href is defined and label is defined and label is not empty %}
-<a
+    <a
         class="button {{ modifier ?? 'button--transparent' }}"
+        href="{{ href }}"
         target="{{ target ?? '_self' }}"
-        href="{{ href }}">
-    {{ label }}
-</a>
+        >
+        {{ label }}
+    </a>
 {% endif %}

@@ -1,4 +1,4 @@
-{% extends 'layouts/_main' %}
+{% extends "layouts/_main" %}
 
 {% block container %}
     <section>
@@ -17,15 +17,15 @@
         {% endembed %}
     </section>
 
-    <section>
-        {% set blocks = entry.dynamicContent.all() %}
-        {% if blocks | length %}
-            <section>
-                {% for b in blocks %}
-                    {% include "blocks/" ~ b.type %}
-                {% endfor %}
-            </section>
-        {% endif %}
-    </section>
+    {% set blocks = entry.dynamicContent.all() %}
 
+    {% if blocks | length %}
+        <section>
+            {% for b in blocks %}
+                {% include "blocks/" ~ b.type with {
+                    post: b
+                }  %}
+            {% endfor %}
+        </section>
+    {% endif %}
 {% endblock %}
