@@ -1,0 +1,67 @@
+fieldLayouts:
+  827d5a6f-322b-482c-93ce-c744eddd479b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9c2d89ad-bc79-4ac5-8d9b-bae5ed870785
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1def81ff-f8c7-42bf-b83d-1a7586a3ff32 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f740ee0f-018a-49b4-b188-a81b2805036e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0383b419-091b-45cf-a277-19e9e813f5aa # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03a14ff7-d07d-4be6-b7b4-3ca7d9ea2bbe
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9ce21ce6-e597-4728-99c3-85a206ef0b97
+        userCondition: null
+handle: contactPage
+hasTitleField: true
+name: 'Contact Page'
+section: 160e238c-baca-4598-b6d8-3489355232dc # Contact Page
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

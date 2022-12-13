@@ -1,14 +1,24 @@
 {% extends "layouts/_main" %}
 
-{% block container %}
-    {{ entry.title }}
-    {{ entry.description }}
+{% set slug = craft.app.request.getSegment(2) %}
+{% set category = craft.categories.group('projectTypes').slug(slug).one() %}
 
-    <ul>
-        {% for case in entry.casesSelector %}
-            <li>{{ case.title }}</li>
+{% set page = entry is defined ? entry : category %}
+
+
+{% block container %}
+    {% include "components/_heading" with {
+        title: page.title,
+        description: page.description,
+    } %}
+
+    <nav>
+        {% for category in craft.categories().group('projectTypes').all() %}
+            <a href="{{ category.url }}">
+                {{ category.title }}
+            </a>
         {% endfor %}
-    </ul>
+    </nav>
 
     <hr>
 
@@ -26,7 +36,7 @@
     <ul>
         {% for case in craft.entries.section('cases').type('detail').all() %}
             <li>
-                <a href="{{case.url}}">
+                <a href="{{ case.url }}">
                     {{ case.title }}
                 </a>
             </li>

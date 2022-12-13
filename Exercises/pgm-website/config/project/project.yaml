@@ -1,4 +1,4 @@
-dateModified: 1670321826
+dateModified: 1670851679
 email:
   fromEmail: debockkilian@gmail.com
   fromName: ArteveldeHS
@@ -19,6 +19,7 @@ meta:
     2f852dee-3439-4c2f-a8b4-7156a4881754: Banner # Banner
     5a492ac6-2921-413e-aaa4-58b735c4d72e: 'PGM Gent' # PGM Gent
     5e19f193-61ad-4917-bc4a-e3cf85104991: Content # Content
+    6c46081d-5c3b-4a35-91a2-8cae2cbceb4f: 'Project Types' # Project Types
     6f6e4aa8-43dc-41c1-9c03-3939d992fc43: 'Cases Page' # Cases Page
     7f96ef93-179b-4775-bc69-c66337540e2b: Image # Image
     8d1faf3f-6547-4215-a69b-14524eb2c452: 'External Link' # External Link
@@ -27,14 +28,16 @@ meta:
     50b640eb-fedf-4d1a-86ab-2ac6452a6090: 'Entry Selector' # Entry Selector
     52fa0ebf-4097-4459-a7ad-770a190f5559: Cases # Cases
     85a35d67-d96b-4841-b4b8-7e364f04e055: 'Main Navigation' # Main Navigation
+    160e238c-baca-4598-b6d8-3489355232dc: 'Contact Page' # Contact Page
     0383b419-091b-45cf-a277-19e9e813f5aa: Image # Image
     596c8b9b-d58f-4f61-8c01-31f163a00b8a: Branding # Branding
     758f436c-96b9-4fea-b836-00009b7e0fc2: 'Internal Link' # Internal Link
     938c99e4-f33c-4f5a-8034-ccf2473a7818: 'External Link' # External Link
     990e9362-0cb3-4fe3-b48e-6f89362559f7: Images # Images
     41119b4d-cfd0-4f4f-a946-16749bf6bcf8: 'Button Style Selector' # Button Style Selector
-    567596ea-3ec4-4673-9f42-e08dfa8f71ed: 'Small Image'
+    567596ea-3ec4-4673-9f42-e08dfa8f71ed: 'Small Image' # Small Image
     a50efbd0-d64b-47e6-919f-e2fa313b3f79: External # External
+    a252c046-a2d6-4f1c-86ca-6b98f54dda1d: 'Contact Page' # Contact Page
     a5348d7a-57fd-4eeb-b388-0192c324b42e: Image # Image
     b8d81bfc-65d1-4966-9b6e-e72776fdd94d: 'Cases Page' # Cases Page
     c32bd130-4253-4b2d-9a85-936edb6de9a8: WYSIWYG # WYSIWYG
@@ -44,6 +47,40 @@ meta:
     dc74ce5c-3103-4843-836a-961d909d8643: Common # Common
     f4139642-7268-469a-8b0f-ffe72dbe2aad: Home # Home
 plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from PGM Gent'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: $TO_EMAIL
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      confirmationSubject: ''
+      confirmationTemplate: ''
+      enableConfirmationEmail: ''
+      enableDatabase: '1'
+      enableRecaptchaOverride: ''
+      enableTemplateOverwrite: ''
+      notificationTemplate: ''
+      recaptcha: ''
+      recaptchaDataBadge: bottomright
+      recaptchaDebug: ''
+      recaptchaHideBadge: ''
+      recaptchaSecretKey: ''
+      recaptchaSiteKey: ''
+      recaptchaThreshold: '0.5'
+      recaptchaTimeout: '5'
+      recaptchaUrl: ''
+      recaptchaVerificationUrl: ''
+      recaptchaVersion: ''
   mix:
     edition: standard
     enabled: true
